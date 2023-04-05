@@ -1,0 +1,62 @@
+body {
+  background: url("https://static.pexels.com/photos/6663/desk-white-black-header.jpg") no-repeat center center fixed;
+  background-size: cover; 
+}
+
+.ticktock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;  
+  padding-top: 15px;
+  padding-bottom: 25px;  
+}
+
+p {
+  text-align: center;
+}
+
+
+.clock{
+  margin-top: 30px;
+}
+
+.container {
+  width: 500px;
+}
+
+.middle{
+    display:inline-block;
+}
+
+#btns{
+  display: flex;
+  justify-content: center;
+}
+
+#stop {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn {
+  background-color: #333333;
+  color: #CCCCCC;
+}
+
+#stats {
+  background-color: #333333;
+  width: 260px;
+  height: 70px;  
+  border-radius: 10px;
+  color: #CCCCCC;
+  font-size: 40px;
+  text-align: center;
+}
+
+#statRow {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
